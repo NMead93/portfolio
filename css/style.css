@@ -49,3 +49,39 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("../img/contact.jpg");
 }
+
+.inquiry input {
+    display: block;
+    margin: 5px;
+}
+
+.info {
+    background-color: #eee;
+}
+
+body {
+    background-color: #888;
+}
+
+hr.line {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.line:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+}
