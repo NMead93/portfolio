@@ -83,21 +83,18 @@ hr.line:before {
   border-radius: 20px;
 }
 
-.title {
+.title, .education h3, .skillset h3, .gitHub h4, .contact p, .votingDesc h3, .fitHackDesc h3 {
     text-align: center;
 }
 
 .education, .skillset {
     display: inline-block;
+    margin-left: 50px;
 }
 
 .education {
     padding-bottom: 100px;
-    margin-left: 140px;
-}
-
-.education h3, .skillset h3 {
-    text-align: center;
+    float: left;
 }
 
 .intro-project {
@@ -109,7 +106,7 @@ hr.line:before {
     height: auto;
     position: relative;
     overflow: hidden;
-    float: right;
+    float: left;
 }
 
 .prof-img img {
@@ -123,4 +120,21 @@ hr.line:before {
     -o-border-radius: 50%;
     border-radius: 50%;
     background-size:cover;
+}
+
+.project, .proj1 img, .proj2 img, .votingDesc, .fitHackDesc {
+    display: inline-block;
+}
+
+.proj1, .proj2 {
+    height: 300px;
+}
+
+.proj1 img, .proj2 img {
+    width: 250px;
+}
+
+.skillset img {
+    width: 100px;
+    margin: 20px;
 }
