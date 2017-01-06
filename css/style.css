@@ -138,3 +138,7 @@ hr.line:before {
     width: 100px;
     margin: 20px;
 }
+
+.about:target, .project:target {
+    padding-top: 40px;
+}

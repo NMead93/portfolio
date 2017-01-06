@@ -16,9 +16,9 @@
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutLink">About Me</a></li>
+                <li><a href="#projectLink">Projects</a></li>
+                <li><a href="#contactLink">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -29,7 +29,7 @@
     </section>
 
     <section class="module content">
-        <div class="container info about">
+        <div class="container info about" id="aboutLink">
             <h2 class="title title-about">About Me</h2>
             <hr class="line">
 
@@ -64,7 +64,7 @@
     </section>
 
     <section class="module content">
-        <div class="container info project">
+        <div class="container info project" id="projectLink">
 
             <div class="proj1">
                 <img src="img/voting.png" alt="">
@@ -117,17 +117,19 @@
     </section>
 
     <section class="module content">
-        <div class="container info contact">
+        <div class="container info contact" id="contactLink">
             <h2 class="title title-contact">Want to Get in Touch?</h2>
             <p>Fill out and submit this form and I will reply to any questions and inquiries</p>
             <hr class="line">
-            <form class="inquiry">
-                <input type="text" name="name" value="Name">
-                <input type="text" name="email" value="Email">
-                <input type="text" name="phone" value="Phone">
-                <input type="text" name="message" value="Message">
-                <input type="submit" value="Submit">
-            </form>
+            <div class="inquiry">
+                <form>
+                    <input type="text" name="name" value="Name">
+                    <input type="text" name="email" value="Email">
+                    <input type="text" name="phone" value="Phone">
+                    <input type="text" name="message" value="Message">
+                    <input type="button" class="btn btn-info" value="Submit">
+                </form>
+            </div>
         </div>
     </section>
 </body>
