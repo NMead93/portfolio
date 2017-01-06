@@ -2,9 +2,7 @@
   max-width: 960px;
   margin: 0 auto;
 }
-/* ============================================================
-  SECTIONS
-============================================================ */
+
 section.module:last-child {
   margin-bottom: 0;
 }
@@ -12,6 +10,7 @@ section.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
+  color: white;
 }
 section.module p {
   margin-bottom: 40px;
@@ -32,9 +31,9 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #777 grey;
   font-size: 48px;
-  line-height: 6;
+  line-height: 8;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -53,14 +52,16 @@ section.module.parallax-3 {
 .inquiry input {
     display: block;
     margin: 5px;
+    color: black;
 }
 
 .info {
-    background-color: #eee;
+    background-color: #1a1a00;
+    color: #eee;
 }
 
 body {
-    background-color: #888;
+    background-color: #1a1a00;
 }
 
 hr.line {
@@ -77,11 +78,49 @@ hr.line:before {
   height: 30px;
   margin-top: -31px;
   border-style: solid;
-  border-color: #8c8b8b;
+  border-color: white;
   border-width: 0 0 1px 0;
   border-radius: 20px;
 }
 
 .title {
     text-align: center;
+}
+
+.education, .skillset {
+    display: inline-block;
+}
+
+.education {
+    padding-bottom: 100px;
+    margin-left: 140px;
+}
+
+.education h3, .skillset h3 {
+    text-align: center;
+}
+
+.intro-project {
+    color: #eee;
+}
+
+.prof-img {
+    max-width: 250px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    float: right;
+}
+
+.prof-img img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-size:cover;
 }
